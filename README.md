@@ -11,7 +11,7 @@ https://youtu.be/SCVjgfgoOw0
 -Un projet React : servant de frontend à notre application
 # Structure du projet :
 Projet_opsci\
-├── BINONECH\
+├── BINONECH (The name choice is indeed very questionable but let's not get into that)\
 │   ├── Dockerfile\
 │   ├── docker-compose.yml\
 │   ├── .env (ce fichier est dans le gitignore pour des raisons de sécurité)\
@@ -31,11 +31,11 @@ Une fois que vous avez cloné le projet sur votre machine, vous pouvez suivre ce
 >>cd BINONECH
 
 2. Ensuite, lancez la commande ci dessous, Cela démarrera tous les services définis dans le fichier `docker-compose.yml`.
-Ce qui peut prendre un peu de temps pour que tout s'exécute.
+Ce qui peut prendre un peu (Beaucoup) de temps pour que tout s'exécute, nous vous recommandons ainsi que vous preniez un truc à consommer en attendant que tout prenne forme. (Peut accessoirement crash votre machine comme ça a pu faire pour le mien 🤭🤭)
 >>docker-compose up --build
 
 
-3. Une fois que c'est terminé, vous devriez voir un affichage similaire à celui-ci :
+3. Une fois que c'est terminé, vous devriez (NORMALEMENT) avoir un affichage similaire à celui-ci :
 >><img width="857" alt="rdm" src="https://github.com/hasleyy6/Projet-opsci/assets/141744710/2475a0a3-b470-4a36-8a7b-9d612d97ce93">
 
 4.Vous accédez finalement à l'application React à l'adresse http://localhost:5173, comme défini via le champ EXPOSE dans le Dockerfile
