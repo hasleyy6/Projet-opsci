@@ -13,9 +13,9 @@ projet_opsci/
 Plusieurs méthodes sont possible:
 ## Méthode 1 : La plus simple ✨Docker✨
 Une fois que vous ayez pull le projet sur votre machine, il vous suffira de vous mettre dans le dossier BINONECH grâce à la commande:
->>cd BINONECH<<
+>cd BINONECH
 Ensuite il faut taper la commande:
->>Docker-compose up --build<<
+>Docker-compose up --build
 Qui va démarrer tous les services grâce au docker-compose.yml
 Ca devrait prendre un peu de temps pour que tout s'exécute.
 Une fois que c'est bon, vous devrez avoir un affichage qui ressemble au suivant:
