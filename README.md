@@ -21,8 +21,8 @@ Plusieurs méthodes sont possibles :
 
 Une fois que vous avez cloné le projet sur votre machine, vous pouvez suivre ces étapes :
 
-1. Naviguez vers le dossier BINONECH en utilisant la commande :
-*>>cd BINONECH
+1. Naviguez vers le dossier BINONECH en utilisant la commande :\
+>>cd BINONECH
 
 2. Ensuite, lancez la commande :
 docker-compose up --build
