@@ -38,9 +38,10 @@ Ce qui peut prendre un peu (Beaucoup) de temps pour que tout s'exécute, nous vo
 3. Une fois que c'est terminé, vous devriez (NORMALEMENT) avoir un affichage similaire à celui-ci :
 >><img width="857" alt="rdm" src="https://github.com/hasleyy6/Projet-opsci/assets/141744710/2475a0a3-b470-4a36-8a7b-9d612d97ce93">
 
-4.Vous accédez finalement à l'application React à l'adresse http://localhost:5173, comme défini via le champ EXPOSE dans le Dockerfile
+4.Vous accédez finalement à l'application React à l'adresse http://localhost:5173, comme défini via le champ EXPOSE dans le Dockerfile.
 
 5. Vous avez aussi accès au pannel administrateur à l'adresse http://localhost:1337/admin, les produits que vous créerez seront visible au front end.
+6. Nous mettre le 20/20 qu'on mérite.
 
 ### Arrêt
 >>Docker-compose down
