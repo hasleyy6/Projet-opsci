@@ -12,7 +12,7 @@ Projet_opsci\
 │   └── ... (remaining strapi app files)\
 └── opsci-strapi-frontend\
     ├── Dockerfile\
-    └── ... (remaining front end files)\
+    └── ... (remaining front end files)
 ## Instructions pour lancer le projet :
 
 Plusieurs méthodes sont possibles :
@@ -21,12 +21,12 @@ Plusieurs méthodes sont possibles :
 
 Une fois que vous avez cloné le projet sur votre machine, vous pouvez suivre ces étapes :
 
-1. Naviguez vers le dossier BINONECH en utilisant la commande :\
+1. Naviguez vers le dossier BINONECH en utilisant la commande :
 >>cd BINONECH
 
 2. Ensuite, lancez la commande :
-docker-compose up --build
-
+>>docker-compose up --build
+\
 Cela démarrera tous les services définis dans le fichier `docker-compose.yml`.
 Cela peut prendre un peu de temps pour que tout s'exécute.
 
