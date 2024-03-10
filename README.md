@@ -1,8 +1,8 @@
 ### Ce projet vise à créer et déployer une application composée de :
 
--Un serveur Strapi : servant de backend à notre application
--PostgreSQL : utilisé comme base de données pour Strapi, afin de stocker les informations
--Un projet React : servant de frontend à notre application
+-Un serveur Strapi : servant de backend à notre application\
+-PostgreSQL : utilisé comme base de données pour Strapi, afin de stocker les informations\
+-Un projet React : servant de frontend à notre application\
 # Structure du projet :
 Projet_opsci\
 ├── BINONECH\
