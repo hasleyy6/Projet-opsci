@@ -34,3 +34,7 @@ Cela peut prendre un peu de temps pour que tout s'exécute.
 >><img width="857" alt="rdm" src="https://github.com/hasleyy6/Projet-opsci/assets/141744710/2475a0a3-b470-4a36-8a7b-9d612d97ce93">
 
 4.Vous accédez finalement à l'application React à l'adresse http://localhost:5173, comme défini via le champ EXPOSE dans le Dockerfile
+
+# Clap de fin
+Voilà, normalement vous avez accès au frontend avec les produits demandés. Merci d'avoir tout suivi!!
+
