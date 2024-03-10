@@ -48,16 +48,16 @@ Ce qui peut prendre un peu de temps pour que tout s'exécute.
 ## Containers used in this project:
 #### Strapi:
 - Container name : Strapi
-- DATABASE_NAME: strapi-pg\
-- DATABASE_USERNAME: strapi\
-- DATABASE_PASSWORD: safepassword\
-- ports: 1337:1337\
-- networks:strapi\
+- DATABASE_NAME: strapi-pg
+- DATABASE_USERNAME: strapi
+- DATABASE_PASSWORD: safepassword
+- ports: 1337:1337
+- networks:strapi
 - depends_on:- strapiDB
 
 #### StrapiDB
-- container_name: strapiDB\
-- ports:5432:5432\
+- container_name: strapiDB
+- ports:5432:5432
 - networks:strapi
 - POSTGRES_USER: strapi
 - POSTGRES_PASSWORD: safepassword
