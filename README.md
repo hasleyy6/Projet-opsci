@@ -2,7 +2,7 @@
 
 -Un serveur Strapi : servant de backend à notre application\
 -PostgreSQL : utilisé comme base de données pour Strapi, afin de stocker les informations\
--Un projet React : servant de frontend à notre application\
+-Un projet React : servant de frontend à notre application
 # Structure du projet :
 Projet_opsci\
 ├── BINONECH\
@@ -22,7 +22,7 @@ Plusieurs méthodes sont possibles :
 Une fois que vous avez cloné le projet sur votre machine, vous pouvez suivre ces étapes :
 
 1. Naviguez vers le dossier BINONECH en utilisant la commande :
-cd BINONECH
+*>>cd BINONECH
 
 2. Ensuite, lancez la commande :
 docker-compose up --build
