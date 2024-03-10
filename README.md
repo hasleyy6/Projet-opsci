@@ -1,4 +1,10 @@
-projet_opsci\
+### Ce projet vise à créer et déployer une application composée de :
+
+-Un serveur Strapi : servant de backend à notre application
+-PostgreSQL : utilisé comme base de données pour Strapi, afin de stocker les informations
+-Un projet React : servant de frontend à notre application
+# Structure du projet :
+Projet_opsci\
 ├── BINONECH\
 │   ├── Dockerfile\
 │   ├── docker-compose.yml\
@@ -11,7 +17,7 @@ projet_opsci\
 
 Plusieurs méthodes sont possibles :
 
-### Méthode 1 : La plus simple ✨Docker✨
+### La méthode la plus simple ✨Docker✨
 
 Une fois que vous avez cloné le projet sur votre machine, vous pouvez suivre ces étapes :
 
@@ -26,3 +32,5 @@ Cela peut prendre un peu de temps pour que tout s'exécute.
 
 3. Une fois que c'est terminé, vous devriez voir un affichage similaire à celui-ci :
 >><img width="857" alt="rdm" src="https://github.com/hasleyy6/Projet-opsci/assets/141744710/2475a0a3-b470-4a36-8a7b-9d612d97ce93">
+
+4.Vous accédez finalement à l'application React à l'adresse http://localhost:5173, comme défini via le champ EXPOSE dans le Dockerfile
