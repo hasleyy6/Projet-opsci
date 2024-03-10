@@ -31,7 +31,7 @@ Une fois que vous avez cloné le projet sur votre machine, vous pouvez suivre ce
 >>cd BINONECH
 
 2. Ensuite, lancez la commande ci dessous, Cela démarrera tous les services définis dans le fichier `docker-compose.yml`.
-Ce qui peut prendre un peu (Beaucoup) de temps pour que tout s'exécute, nous vous recommandons ainsi que vous preniez un truc à consommer en attendant que tout prenne forme. (Peut accessoirement crash votre machine comme ça a pu faire pour le mien 🤭🤭)
+Ce qui peut prendre un peu (Beaucoup) de temps pour que tout s'exécute, nous vous recommandons ainsi que vous preniez un truc à consommer en attendant que tout prenne forme. (Peut accessoirement crash votre machine comme ça a pu faire pour la mienne 🤭🤭)
 >>docker-compose up --build
 
 
