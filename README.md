@@ -47,27 +47,27 @@ Ce qui peut prendre un peu de temps pour que tout s'exécute.
 
 ## Containers used in this project:
 #### Strapi:
--Container name : Strapi
--DATABASE_NAME: strapi-pg
--DATABASE_USERNAME: strapi
--DATABASE_PASSWORD: safepassword
--ports: 1337:1337
--networks:strapi
-depends_on:- strapiDB
+- Container name : Strapi
+- DATABASE_NAME: strapi-pg\
+- DATABASE_USERNAME: strapi\
+- DATABASE_PASSWORD: safepassword\
+- ports: 1337:1337\
+- networks:strapi\
+- depends_on:- strapiDB
 
 #### StrapiDB
--container_name: strapiDB
--ports:5432:5432
--networks:strapi
--POSTGRES_USER: strapi
--POSTGRES_PASSWORD: safepassword
--POSTGRES_DB: strapi-pg
+- container_name: strapiDB\
+- ports:5432:5432\
+- networks:strapi
+- POSTGRES_USER: strapi
+- POSTGRES_PASSWORD: safepassword
+- POSTGRES_DB: strapi-pg
 
 #### front end
-container_name: frontend
-ports:5173:5173
-depends_on:strapiDB,strapi,dump
--networks:strapi
+- container_name: frontend
+- ports:5173:5173
+- depends_on:strapiDB,strapi,dump
+- networks:strapi
 
 # Clap de fin
 Voilà, normalement vous avez accès au frontend avec les produits demandés. Merci d'avoir tout suivi!!
