@@ -46,7 +46,7 @@ services:
       #- ./data:/var/lib/postgresql/data/ # if you want to use a bind folder
 
     ports:
-      - "0:5432"
+      - "5432:5432"
     networks:
       - strapi
 
@@ -58,18 +58,31 @@ services:
     ports:
       - "5173:5173" # Remplacez par les ports appropriés
     depends_on:
+      - strapiDB
       - strapi
+      - dump
+    networks:
+      - strapi
+  dump:
+    container_name: db-dump
+    image: postgres:12.0-alpine
+    env_file: 
+      - .env
+    command: ["sh", "-c", "export PGPASSWORD=safepassword && pg_dumpall -h strapiDB -U strapi > /dump/backup.sql"]
+
+    volumes:
+      - ./dump:/dump
+    depends_on:
+      - strapiDB
     networks:
       - strapi
 
   
-    
-
 
 volumes:
   strapi-data:
 
-networks:
+networks: 
   strapi:
     name: Strapi
     driver: bridge
