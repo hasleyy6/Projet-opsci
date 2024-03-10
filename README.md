@@ -1,12 +1,12 @@
-# projet_opsci/
-├── BINONECH/
-│   ├── Dockerfile
-│   ├── docker-compose.yml
-│   ├── .env (ce fichier est dans le gitignore pour des raisons de sécurité)
-│   └── ... (remaining strapi app files)
-└── opsci-strapi-frontend/
-    ├── Dockerfile
-    └── ... (remaining front end files)
+# projet_opsci\
+├── BINONECH\
+│   ├── Dockerfile\
+│   ├── docker-compose.yml\
+│   ├── .env (ce fichier est dans le gitignore pour des raisons de sécurité)\
+│   └── ... (remaining strapi app files)\
+└── opsci-strapi-frontend\
+    ├── Dockerfil\
+    └── ... (remaining front end files)\
 ## Instructions pour lancer le projet :
 
 Plusieurs méthodes sont possibles :
@@ -22,7 +22,6 @@ cd BINONECH
 docker-compose up --build
 
 Cela démarrera tous les services définis dans le fichier `docker-compose.yml`.
-
 Cela peut prendre un peu de temps pour que tout s'exécute.
 
 3. Une fois que c'est terminé, vous devriez voir un affichage similaire à celui-ci :
